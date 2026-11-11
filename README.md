@@ -22,4 +22,4 @@ so it is per-browser rather than shared between visitors.
 
 ## Live site
 
-https://sigeonstudio-sketch.github.io/
+https://sigeonstudio-sketch.github.io/sigeondev.com/
