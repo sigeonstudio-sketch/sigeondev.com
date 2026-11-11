@@ -22,4 +22,9 @@ so it is per-browser rather than shared between visitors.
 
 ## Live site
 
-https://sigeonstudio-sketch.github.io/sigeondev.com/
+https://sigeonstudio-sketch.github.io/home/
+
+The published site is served from the `sigeonstudio-sketch.github.io` user-site
+repository, which keeps the site under the `/home/` path. This repository
+(`sigeondevwebsite`) holds the source and also publishes to
+https://sigeonstudio-sketch.github.io/sigeondevwebsite/ as a fallback.
