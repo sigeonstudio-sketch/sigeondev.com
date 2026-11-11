@@ -97,6 +97,7 @@
         }
 
         .no-games {
+            grid-column: 1 / -1;
             text-align: center;
             padding: 4rem 2rem;
             color: #666;
@@ -121,12 +122,6 @@
 
     <!-- Main Content -->
     <div class="main">
-        <!-- Home section -->
-        <section id="home" style="text-align: center; padding: 3rem 2rem; background: #fff; border-radius: 8px; margin-bottom: 2rem;">
-            <h2 style="color: #2c3e50; margin-bottom: 1rem;">Sigeon Dev.</h2>
-            <p style="color: #666; font-size: 1.2rem;">A gaming destination</p>
-        </section>
-
         <header>
             <img src="assets/logo.png" alt="Sigeon Dev. Logo" class="logo">
             <h1>Sigeon Dev.</h1>
@@ -167,7 +162,7 @@
 
             grid.innerHTML = games.map((game, index) => `
                 <div class="game-card">
-                    <img src="https://via.placeholder.com/180x120/1a1a1a/666?text=Game" alt="${game.title}">
+                    <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='120' viewBox='0 0 180 120'%3E%3Crect width='180' height='120' fill='%231a1a1a'/%3E%3Ctext x='90' y='66' fill='%23666' font-family='system-ui,sans-serif' font-size='14' text-anchor='middle'%3EGame%3C/text%3E%3C/svg%3E" alt="${game.title}">
                     <h3>${game.title}</h3>
                     <p>${game.desc || 'No description'}</p>
                     <div class="size">${game.category || 'Uncategorized'}</div>
