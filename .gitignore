@@ -1,0 +1,8 @@
+# Rust module - kept locally, not published to the public site repo
+rust/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
